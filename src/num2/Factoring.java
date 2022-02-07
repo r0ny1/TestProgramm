@@ -30,7 +30,7 @@ public class Factoring
             int n;
             if(inp.hasNextInt()){
                 n = inp.nextInt();
-                System.out.println("Число " + n +" 3разложили: ");
+                System.out.println("Число " + n +" разложили: ");
 
                 factorize(n,2);
             }else{
