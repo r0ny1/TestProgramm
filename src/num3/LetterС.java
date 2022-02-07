@@ -3,6 +3,12 @@ package num3;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/**
+ *  Программа считает количество гласных в словах,
+ *  выводит отсортированным списком по количеству гласных
+ *  и делает первую гласную букву в слове заглавной.
+ */
+
 public class LetterС {
     public void workWithTheUserString () {
         Scanner strInput = new Scanner(System.in);
